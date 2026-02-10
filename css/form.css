@@ -20,8 +20,8 @@ body {
 
 /* Container principal */
 .container {
-    width: 100%;
-    max-width: 500px;
+    width: 700px;
+    max-width: 700px;
     background-color: white;
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(138, 43, 226, 0.1);
@@ -30,7 +30,7 @@ body {
 
 /* Cabeçalho */
 .header {
-    background: linear-gradient(135deg, #8a2be2 0%, #6a0dad 100%);
+    background: linear-gradient(135deg, #ff68ca 0%, #ff68ca 100%);
     color: white;
     padding: 30px;
     text-align: center;
@@ -86,7 +86,7 @@ body {
 }
 
 .form-group label i {
-    color: #8a2be2;
+    color: #ff68ca;
     width: 18px;
 }
 
@@ -101,7 +101,7 @@ body {
 
 .form-group input:focus {
     outline: none;
-    border-color: #8a2be2;
+    border-color: #ff68ca;
     box-shadow: 0 0 0 3px rgba(138, 43, 226, 0.1);
     background-color: white;
 }
@@ -130,20 +130,20 @@ body {
 
 /* Links */
 .link {
-    color: #8a2be2;
+    color: #ff68ca;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.2s;
 }
 
 .link:hover {
-    color: #6a0dad;
+    color: #ff68ca;
     text-decoration: underline;
 }
 
 /* Botão de envio */
 .btn-submit {
-    background: linear-gradient(135deg, #8a2be2 0%, #6a0dad 100%);
+    background: linear-gradient(135deg, #ff68ca 0%, #ff68ca 100%);
     color: white;
     border: none;
     padding: 16px;
@@ -160,7 +160,7 @@ body {
 }
 
 .btn-submit:hover {
-    background: linear-gradient(135deg, #7a1bd2 0%, #5a0b9d 100%);
+    background: linear-gradient(135deg, #ff68ca 0%, #ff68ca 100%);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(138, 43, 226, 0.2);
 }
@@ -179,7 +179,7 @@ body {
 
 /* Mensagens de erro */
 .error-message {
-    color: #e74c3c;
+    color: #ff2626;
     font-size: 0.85rem;
     min-height: 18px;
     margin-top: 4px;
@@ -233,7 +233,7 @@ body {
 
 .modal-icon {
     font-size: 4rem;
-    color: #8a2be2;
+    color: #ff68ca;
     margin-bottom: 20px;
 }
 
@@ -248,7 +248,7 @@ body {
 }
 
 .btn-modal {
-    background: linear-gradient(135deg, #8a2be2 0%, #6a0dad 100%);
+    background: linear-gradient(135deg, #ff68ca 0%, #ff68ca 100%);
     color: white;
     border: none;
     padding: 12px 30px;
@@ -260,7 +260,7 @@ body {
 }
 
 .btn-modal:hover {
-    background: linear-gradient(135deg, #7a1bd2 0%, #5a0b9d 100%);
+    background: linear-gradient(135deg, #ff68ca 0%, #ff68ca 100%);
 }
 
 /* Responsividade */
